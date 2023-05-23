@@ -107,7 +107,7 @@ M.setup = function()
     vCursor = { link = "Cursor" },
     iCursor = { link = "Cursor" },
     lCursor = { link = "Cursor" },
-    Special = { link = "SolarizedOrange" },
+    Special = { link = "SolarizedYellow" },
     Comment = { fg = colors.base1, italic = config.italic.comments },
     -- Todo         anything that needs extra attention; mostly the
     --              keywords TODO FIXME and XXX
@@ -135,7 +135,7 @@ M.setup = function()
     Number = { link = "SolarizedViolet" },
     Float = { link = "SolarizedViolet" },
     Type = { link = "SolarizedYellow" },
-    StorageClass = { link = "SolarizedYellow" },
+    StorageClass = { link = "SolarizedOrange" },
     Structure = { link = "SolarizedCyan" },
     Typedef = { link = "SolarizedYellow" },
     Pmenu = { fg = colors.base0, bg = colors.base0 },
