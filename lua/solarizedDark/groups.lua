@@ -107,7 +107,7 @@ M.setup = function()
     vCursor = { link = "Cursor" },
     iCursor = { link = "Cursor" },
     lCursor = { link = "Cursor" },
-    Special = { link = "SolarizedYellow" },
+    Special = { link = "SolarizedOrange" },
     Comment = { fg = colors.base1, italic = config.italic.comments },
     -- Todo         anything that needs extra attention; mostly the
     --              keywords TODO FIXME and XXX
