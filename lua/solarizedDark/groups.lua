@@ -138,7 +138,7 @@ M.setup = function()
     StorageClass = { link = "SolarizedOrange" },
     Structure = { link = "SolarizedCyan" },
     Typedef = { link = "SolarizedYellow" },
-    Pmenu = { fg = colors.base0, bg = colors.base0 },
+    Pmenu = { fg = colors.blue, bg = colors.blue },
     PmenuSel = { fg = colors.base0, bg = colors.blue, bold = config.bold },
     PmenuSbar = { bg = colors.base0 },
     PmenuThumb = { bg = colors.base2 },
@@ -150,7 +150,7 @@ M.setup = function()
     SpellBad = { link = "SolarizedRedUnderline" },
     SpellLocal = { link = "SolarizedCyanUnderline" },
     SpellRare = { link = "SolarizedVioletUnderline" },
-    Whitespace = { fg = colors.blue },
+    Whitespace = { fg = colors.base0 },
     -- LSP Diagnostic
     DiagnosticError = { link = "SolarizedRed" },
     DiagnosticSignError = { link = "SolarizedRedSign" },
