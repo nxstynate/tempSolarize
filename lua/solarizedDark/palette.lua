@@ -13,6 +13,7 @@ M.colors = {
   blue = "#268bd2",
   cyan = "#2aa198",
   green = "#719e07",
+  magenta = "#d33682",
   orange = "#cb4b16",
   red = "#dc322f",
   violet = "#6c71c4",
@@ -46,6 +47,7 @@ M.get_base_colors = function(bg, contrast)
       violet = p.violet,
       cyan = p.cyan,
       base1 = p.base1,
+      magenta = p.magenta,
     },
     light = {
       base02 = p.base2,
@@ -61,6 +63,7 @@ M.get_base_colors = function(bg, contrast)
       violet = p.violet,
       cyan = p.cyan,
       base1 = p.base1,
+      magenta = p.magenta,
     },
   }
 

@@ -18,6 +18,7 @@ local function set_terminal_colors(colors)
   vim.g.terminal_color_14 = colors.cyan
   vim.g.terminal_color_7 = colors.base01
   vim.g.terminal_color_15 = colors.base0
+  vim.g.terminal_color_16 = colors.magenta
 end
 
 M.setup = function()
@@ -41,6 +42,7 @@ M.setup = function()
     SolarizedViolet = { fg = colors.violet, bold = config.bold },
     SolarizedCyan = { fg = colors.cyan, bold = config.bold },
     SolarizedOrange = { fg = colors.orange, bold = config.bold },
+    SolarizedMagenta = { fg = colors.magenta, bold = config.bold },
     SolarizedRedSign = config.transparent_mode and { fg = colors.red, reverse = config.invert_signs }
       or { fg = colors.red, bg = colors.base00, reverse = config.invert_signs },
     SolarizedGreenSign = config.transparent_mode and { fg = colors.green, reverse = config.invert_signs }
@@ -66,7 +68,7 @@ M.setup = function()
     NormalFloat = config.transparent_mode and { fg = colors.base0, bg = nil }
       or { fg = colors.base0, bg = colors.base00 },
     NormalNC = config.dim_inactive and { fg = colors.base2, bg = colors.base00 } or { link = "Normal" },
-    CursorLine = { bg = colors.orange },
+    CursorLine = { bg = colors.base00 },
     CursorColumn = { link = "CursorLine" },
     TabLineFill = { fg = colors.base2, bg = colors.base00, reverse = config.invert_tabline },
     TabLineSel = { fg = colors.green, bg = colors.base00, reverse = config.invert_tabline },
@@ -80,7 +82,7 @@ M.setup = function()
     Visual = { bg = colors.base1, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
     Search = { fg = colors.yellow, bg = colors.base02, reverse = config.inverse },
-    IncSearch = { fg = colors.orange, bg = colors.base02, reverse = config.inverse },
+    IncSearch = { fg = colors.magenta, bg = colors.base02, reverse = config.inverse },
     CurSearch = { link = "IncSearch" },
     QuickFixLine = { fg = colors.base02, bg = colors.yellow, bold = config.bold },
     Underlined = { fg = colors.blue, underline = config.underline },
