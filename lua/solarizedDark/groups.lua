@@ -130,7 +130,7 @@ M.setup = function()
     PreCondit = { link = "SolarizedCyan" },
     Constant = { link = "SolarizedViolet" },
     Character = { link = "SolarizedViolet" },
-    String = { fg = colors.green, italic = config.italic.strings },
+    String = { fg = colors.cyan, italic = config.italic.strings },
     Boolean = { link = "SolarizedViolet" },
     Number = { link = "SolarizedViolet" },
     Float = { link = "SolarizedViolet" },
