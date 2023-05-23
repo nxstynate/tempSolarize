@@ -84,7 +84,7 @@ M.setup = function()
     CurSearch = { link = "IncSearch" },
     QuickFixLine = { fg = colors.base02, bg = colors.yellow, bold = config.bold },
     Underlined = { fg = colors.blue, underline = config.underline },
-    StatusLine = { fg = colors.base0, bg = colors.base0, reverse = config.inverse },
+    StatusLine = { fg = colors.base03, bg = colors.base03, reverse = config.inverse },
     StatusLineNC = { fg = colors.base00, bg = colors.base01, reverse = config.inverse },
     WinBar = { fg = colors.base01, bg = colors.base02 },
     WinBarNC = { fg = colors.base00, bg = colors.base00 },
