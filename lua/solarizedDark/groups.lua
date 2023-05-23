@@ -79,7 +79,7 @@ M.setup = function()
     CursorLineNr = { fg = colors.yellow, bg = colors.base00 },
     NonText = { link = "SolarizedBase0" },
     SpecialKey = { link = "SolarizedBase01" },
-    Visual = { bg = colors.base1, reverse = config.invert_selection },
+    Visual = { bg = colors.blue, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
     Search = { fg = colors.yellow, bg = colors.base02, reverse = config.inverse },
     IncSearch = { fg = colors.magenta, bg = colors.base02, reverse = config.inverse },
