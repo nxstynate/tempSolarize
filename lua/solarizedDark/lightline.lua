@@ -1,58 +1,58 @@
 -- lightline support
 local theme = require("solarizedDark.groups").setup()
 
-local bg0 = theme.SolarizedDarkBg0.fg
-local bg1 = theme.SolarizedDarkBg1.fg
-local bg2 = theme.SolarizedDarkBg2.fg
-local bg4 = theme.SolarizedDarkBg4.fg
-local fg1 = theme.SolarizedDarkFg1.fg
-local fg4 = theme.SolarizedDarkFg4.fg
+local base02 = theme.SolarizedDarkbase02.fg
+local base00 = theme.SolarizedDarkbase00.fg
+local base0 = theme.SolarizedDarkbase0.fg
+local base2 = theme.SolarizedDarkbase2.fg
+local base0 = theme.SolarizedDarkbase0.fg
+local base01 = theme.SolarizedDarkbase01.fg
 
 local yellow = theme.SolarizedYellow.fg
 local blue = theme.SolarizedBlue.fg
-local aqua = theme.SolarizedAqua.fg
+local cyan = theme.SolarizedCyan.fg
 local orange = theme.SolarizedOrange.fg
 local red = theme.SolarizedRed.fg
 local green = theme.SolarizedGreen.fg
 
 local lightline_theme = {
   normal = {
-    left = { { bg0, fg4, "bold" }, { fg4, bg2 } },
-    middle = { { fg4, bg1 } },
-    right = { { bg0, fg4 }, { fg4, bg2 } },
-    error = { { bg0, red } },
-    warning = { { bg0, yellow } },
+    left = { { base02, base01, "bold" }, { base01, base0 } },
+    middle = { { base01, base00 } },
+    right = { { base02, base01 }, { base01, base0 } },
+    error = { { base02, red } },
+    warning = { { base02, yellow } },
   },
   insert = {
-    left = { { bg0, blue, "bold" }, { fg1, bg2 } },
-    middle = { { fg4, bg1 } },
-    right = { { bg0, blue }, { fg1, bg2 } },
+    left = { { base02, blue, "bold" }, { base0, base0 } },
+    middle = { { base01, base00 } },
+    right = { { base02, blue }, { base0, base0 } },
   },
   inactive = {
-    left = { { bg4, bg1 } },
-    middle = { { bg4, bg1 } },
-    right = { { bg4, bg1 }, { bg4, bg1 } },
+    left = { { base2, base00 } },
+    middle = { { base2, base00 } },
+    right = { { base2, base00 }, { base2, base00 } },
   },
   terminal = {
-    left = { { bg0, green, "bold" }, { fg1, bg2 } },
-    middle = { { fg4, bg1 } },
-    right = { { bg0, green }, { fg1, bg2 } },
+    left = { { base02, green, "bold" }, { base0, base0 } },
+    middle = { { base01, base00 } },
+    right = { { base02, green }, { base0, base0 } },
   },
   replace = {
-    left = { { bg0, aqua, "bold" }, { fg1, bg2 } },
-    middle = { { fg4, bg1 } },
-    right = { { bg0, aqua }, { fg1, bg2 } },
+    left = { { base02, cyan, "bold" }, { base0, base0 } },
+    middle = { { base01, base00 } },
+    right = { { base02, cyan }, { base0, base0 } },
   },
   visual = {
-    left = { { bg0, orange, "bold" }, { bg0, bg4 } },
-    middle = { { fg4, bg1 } },
-    right = { { bg0, orange }, { bg0, bg4 } },
+    left = { { base02, orange, "bold" }, { base02, base2 } },
+    middle = { { base01, base00 } },
+    right = { { base02, orange }, { base02, base2 } },
   },
   tabline = {
-    left = { { fg4, bg2 } },
-    middle = { { bg0, bg4 } },
-    right = { { bg0, orange } },
-    tabsel = { { bg0, fg4 } },
+    left = { { base01, base0 } },
+    middle = { { base02, base2 } },
+    right = { { base02, orange } },
+    tabsel = { { base02, base01 } },
   },
 }
 return lightline_theme

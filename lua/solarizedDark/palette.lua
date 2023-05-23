@@ -33,18 +33,11 @@ M.get_base_colors = function(bg, contrast)
 
   local colors = {
     dark = {
-      bg0 = p.base02,
-      bg1 = p.base00,
-      bg2 = p.base0,
-      bg3 = p.base1,
-      bg4 = p.base2,
-      fg0 = p.base2,
-      fg1 = p.base1,
-      fg2 = p.base0,
-      fg3 = p.base00,
-      fg4 = p.base01,
-      purple = p.violet,
-      aqua = p.cyan,
+      base02 = p.base02,
+      base2 = p.base2,
+      base0 = p.base0,
+      base00 = p.base00,
+      base01 = p.base01,
       orange = p.orange,
       red = p.red,
       green = p.green,
@@ -55,18 +48,11 @@ M.get_base_colors = function(bg, contrast)
       base1 = p.base1,
     },
     light = {
-      bg0 = p.base2,
-      bg1 = p.base1,
-      bg2 = p.base0,
-      bg3 = p.base00,
-      bg4 = p.base01,
-      fg0 = p.base02,
-      fg1 = p.base00,
-      fg2 = p.base0,
-      fg3 = p.base1,
-      fg4 = p.base2,
-      purple = p.violet,
-      aqua = p.cyan,
+      base02 = p.base2,
+      base2 = p.base02,
+      base0 = p.base0,
+      base00 = p.base1,
+      base01 = p.base2,
       orange = p.orange,
       red = p.red,
       green = p.green,
@@ -79,7 +65,7 @@ M.get_base_colors = function(bg, contrast)
   }
 
   if contrast ~= nil and contrast ~= "" then
-    colors[bg].bg0 = p[bg .. string.format("0_%s", contrast)]
+    colors[bg].base02 = p[bg .. string.format("0_%s", contrast)]
   end
 
   return colors[bg]
