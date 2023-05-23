@@ -131,7 +131,7 @@ M.setup = function()
     Constant = { link = "SolarizedViolet" },
     Character = { link = "SolarizedViolet" },
     String = { fg = colors.cyan, italic = config.italic.strings },
-    Boolean = { link = "SolarizedViolet" },
+    Boolean = { link = "SolarizedCyan" },
     Number = { link = "SolarizedViolet" },
     Float = { link = "SolarizedViolet" },
     Type = { link = "SolarizedYellow" },
