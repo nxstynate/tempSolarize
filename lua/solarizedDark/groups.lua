@@ -75,8 +75,8 @@ M.setup = function()
     ColorColumn = { bg = colors.base00 },
     Conceal = { fg = colors.blue },
     CursorLineNr = { fg = colors.yellow, bg = colors.base00 },
-    NonText = { link = "SolarizedBlue" },
-    SpecialKey = { link = "SolarizedBlue" },
+    NonText = { link = "SolarizedBase0" },
+    SpecialKey = { link = "SolarizedBase01" },
     Visual = { bg = colors.base1, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
     Search = { fg = colors.yellow, bg = colors.base02, reverse = config.inverse },
@@ -175,7 +175,7 @@ M.setup = function()
     LspReferenceRead = { link = "SolarizedYellow" },
     LspReferenceText = { link = "SolarizedYellow" },
     LspReferenceWrite = { link = "SolarizedOrange" },
-    LspCodeLens = { link = "SolarizedBase1" },
+    LspCodeLens = { link = "SolarizedBlue" },
     LspSignatureActiveParameter = { link = "Search" },
 
     -- nvim-treesitter
