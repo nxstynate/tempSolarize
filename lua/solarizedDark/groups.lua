@@ -720,7 +720,7 @@ M.setup = function()
     typescriptIdentifier = { link = "SolarizedOrange" },
     typescriptBraces = { link = "SolarizedBase0" },
     typescriptEndColons = { link = "SolarizedBase0" },
-    typescriptDOMObjects = { link = "SolarizedBase0" },
+    typescriptDOMObjects = { link = "SolarizedBlue" },
     typescriptAjaxMethods = { link = "SolarizedBase0" },
     typescriptLogicSymbols = { link = "SolarizedBase0" },
     typescriptDocSeeTag = { link = "Comment" },
