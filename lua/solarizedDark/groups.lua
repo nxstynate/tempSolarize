@@ -76,7 +76,7 @@ M.setup = function()
     Conceal = { fg = colors.blue },
     CursorLineNr = { fg = colors.yellow, bg = colors.base00 },
     NonText = { link = "SolarizedDarkbase0" },
-    SpecialKey = { link = "SolarizedBlue" },
+    SpecialKey = { link = "SolarizedDarkbase01" },
     Visual = { bg = colors.base1, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
     Search = { fg = colors.yellow, bg = colors.base02, reverse = config.inverse },
@@ -150,7 +150,7 @@ M.setup = function()
     SpellBad = { link = "SolarizedRedUnderline" },
     SpellLocal = { link = "SolarizedCyanUnderline" },
     SpellRare = { link = "SolarizedVioletUnderline" },
-    Whitespace = { fg = colors.base0 },
+    Whitespace = { fg = colors.blue },
     -- LSP Diagnostic
     DiagnosticError = { link = "SolarizedRed" },
     DiagnosticSignError = { link = "SolarizedRedSign" },
