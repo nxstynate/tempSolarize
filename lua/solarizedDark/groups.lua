@@ -66,7 +66,7 @@ M.setup = function()
     NormalFloat = config.transparent_mode and { fg = colors.base0, bg = nil }
       or { fg = colors.base0, bg = colors.base00 },
     NormalNC = config.dim_inactive and { fg = colors.base2, bg = colors.base00 } or { link = "Normal" },
-    CursorLine = { bg = colors.base00 },
+    CursorLine = { bg = colors.orange },
     CursorColumn = { link = "CursorLine" },
     TabLineFill = { fg = colors.base2, bg = colors.base00, reverse = config.invert_tabline },
     TabLineSel = { fg = colors.green, bg = colors.base00, reverse = config.invert_tabline },
@@ -175,7 +175,7 @@ M.setup = function()
     LspReferenceRead = { link = "SolarizedYellow" },
     LspReferenceText = { link = "SolarizedYellow" },
     LspReferenceWrite = { link = "SolarizedOrange" },
-    LspCodeLens = { link = "SolarizedBlue" },
+    LspCodeLens = { link = "SolarizedBase1" },
     LspSignatureActiveParameter = { link = "Search" },
 
     -- nvim-treesitter
