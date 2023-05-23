@@ -320,7 +320,7 @@ M.setup = function()
     ["@constant.macro"] = { link = "Define" },
 
     -- @namespace        ; modules or namespaces
-    ["@namespace"] = { link = "SolarizedBase0" },
+    ["@namespace"] = { link = "SolarizedBlue" },
     -- @symbol           ; symbols or atoms
     ["@symbol"] = { link = "Identifier" },
 
