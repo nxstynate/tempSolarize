@@ -122,7 +122,7 @@ M.setup = function()
     Operator = { fg = colors.green, italic = config.italic.operators },
     Keyword = { link = "SolarizedRed" },
     Identifier = { link = "SolarizedBlue" },
-    Function = { link = "SolarizedGreen" },
+    Function = { link = "SolarizedBlue" },
     PreProc = { link = "SolarizedCyan" },
     Include = { link = "SolarizedCyan" },
     Define = { link = "SolarizedCyan" },
