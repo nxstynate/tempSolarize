@@ -28,12 +28,7 @@ M.setup = function()
 
   local groups = {
     -- Base groups
-    SolarizedDarkbase2 = { fg = colors.base2 },
-    SolarizedDarkbase0 = { fg = colors.base0 },
-    SolarizedDarkbase0 = { fg = colors.base0 },
-    SolarizedDarkbase00 = { fg = colors.base00 },
     SolarizedDarkbase01 = { fg = colors.base01 },
-    SolarizedDarkbase1 = { fg = colors.base1 },
     SolarizedDarkbase02 = { fg = colors.base02 },
     SolarizedDarkbase00 = { fg = colors.base00 },
     SolarizedDarkbase0 = { fg = colors.base0 },
@@ -68,7 +63,8 @@ M.setup = function()
     SolarizedCyanUnderline = { undercurl = config.undercurl, sp = colors.cyan },
     SolarizedOrangeUnderline = { undercurl = config.undercurl, sp = colors.orange },
     Normal = config.transparent_mode and { fg = colors.base0, bg = nil } or { fg = colors.base0, bg = colors.base02 },
-    NormalFloat = config.transparent_mode and { fg = colors.base0, bg = nil } or { fg = colors.base0, bg = colors.base00 },
+    NormalFloat = config.transparent_mode and { fg = colors.base0, bg = nil }
+      or { fg = colors.base0, bg = colors.base00 },
     NormalNC = config.dim_inactive and { fg = colors.base2, bg = colors.base00 } or { link = "Normal" },
     CursorLine = { bg = colors.base00 },
     CursorColumn = { link = "CursorLine" },
@@ -92,7 +88,8 @@ M.setup = function()
     StatusLineNC = { fg = colors.base00, bg = colors.base01, reverse = config.inverse },
     WinBar = { fg = colors.base01, bg = colors.base02 },
     WinBarNC = { fg = colors.base00, bg = colors.base00 },
-    WinSeparator = config.transparent_mode and { fg = colors.base1, bg = nil } or { fg = colors.base1, bg = colors.base02 },
+    WinSeparator = config.transparent_mode and { fg = colors.base1, bg = nil }
+      or { fg = colors.base1, bg = colors.base02 },
     WildMenu = { fg = colors.blue, bg = colors.base0, bold = config.bold },
     Directory = { link = "SolarizedBlue" },
     Title = { link = "SolarizedGreen" },
@@ -104,7 +101,8 @@ M.setup = function()
     LineNr = { fg = colors.base2 },
     SignColumn = config.transparent_mode and { bg = nil } or { bg = colors.base00 },
     Folded = { fg = colors.base1, bg = colors.base00, italic = config.italic.folds },
-    FoldColumn = config.transparent_mode and { fg = colors.base1, bg = nil } or { fg = colors.base1, bg = colors.base00 },
+    FoldColumn = config.transparent_mode and { fg = colors.base1, bg = nil }
+      or { fg = colors.base1, bg = colors.base00 },
     Cursor = { reverse = config.inverse },
     vCursor = { link = "Cursor" },
     iCursor = { link = "Cursor" },
@@ -121,7 +119,7 @@ M.setup = function()
     Repeat = { link = "SolarizedRed" },
     Label = { link = "SolarizedRed" },
     Exception = { link = "SolarizedRed" },
-    Operator = { fg = colors.orange, italic = config.italic.operators },
+    Operator = { fg = colors.green, italic = config.italic.operators },
     Keyword = { link = "SolarizedRed" },
     Identifier = { link = "SolarizedBlue" },
     Function = { link = "SolarizedGreen" },
