@@ -107,7 +107,7 @@ M.setup = function()
     Folded = { fg = colors.base1, bg = colors.base00, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.base1, bg = nil }
       or { fg = colors.base1, bg = colors.base00 },
-    Cursor = { reverse = config.inverse },
+    Cursor = { link = "SolarizedCyan" },
     vCursor = { link = "Cursor" },
     iCursor = { link = "Cursor" },
     lCursor = { link = "Cursor" },
