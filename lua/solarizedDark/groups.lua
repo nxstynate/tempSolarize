@@ -120,7 +120,7 @@ M.setup = function()
     Label = { link = "SolarizedRed" },
     Exception = { link = "SolarizedRed" },
     Operator = { fg = colors.green, italic = config.italic.operators },
-    Keyword = { link = "SolarizedRed" },
+    Keyword = { link = "SolarizedGreen" },
     Identifier = { link = "SolarizedBlue" },
     Function = { link = "SolarizedBlue" },
     PreProc = { link = "SolarizedCyan" },
