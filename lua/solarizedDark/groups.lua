@@ -454,7 +454,7 @@ M.setup = function()
     StartifyPath = { link = "SolarizedBase1" },
     StartifySlash = { link = "SolarizedBase1" },
     StartifySection = { link = "SolarizedYellow" },
-    StartifySpecial = { link = "SolarizedBlue" },
+    StartifySpecial = { link = "SolarizedBase0" },
     StartifyHeader = { link = "SolarizedOrange" },
     StartifyFooter = { link = "SolarizedBase0" },
     StartifyVar = { link = "StartifyPath" },
