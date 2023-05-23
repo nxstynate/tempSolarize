@@ -19,6 +19,7 @@ local function set_terminal_colors(colors)
   vim.g.terminal_color_7 = colors.base01
   vim.g.terminal_color_15 = colors.base0
   vim.g.terminal_color_16 = colors.magenta
+  vim.g.terminal_color_17 = colors.base03
 end
 
 M.setup = function()
@@ -31,6 +32,7 @@ M.setup = function()
     -- Base groups
     SolarizedBase01 = { fg = colors.base01 },
     SolarizedBase02 = { fg = colors.base02 },
+    SolarizedBase03 = { fg = colors.base03 },
     SolarizedBase00 = { fg = colors.base00 },
     SolarizedBase0 = { fg = colors.base0 },
     SolarizedBase1 = { fg = colors.base1 },
@@ -68,7 +70,7 @@ M.setup = function()
     NormalFloat = config.transparent_mode and { fg = colors.base0, bg = nil }
       or { fg = colors.base0, bg = colors.base00 },
     NormalNC = config.dim_inactive and { fg = colors.base2, bg = colors.base00 } or { link = "Normal" },
-    CursorLine = { bg = colors.base00 },
+    CursorLine = { bg = colors.base03 },
     CursorColumn = { link = "CursorLine" },
     TabLineFill = { fg = colors.base2, bg = colors.base00, reverse = config.invert_tabline },
     TabLineSel = { fg = colors.green, bg = colors.base00, reverse = config.invert_tabline },

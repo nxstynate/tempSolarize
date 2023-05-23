@@ -34,6 +34,7 @@ M.get_base_colors = function(bg, contrast)
 
   local colors = {
     dark = {
+      base03 = p.base03,
       base02 = p.base02,
       base2 = p.base2,
       base0 = p.base0,
@@ -50,6 +51,7 @@ M.get_base_colors = function(bg, contrast)
       magenta = p.magenta,
     },
     light = {
+      base03 = p.base03,
       base02 = p.base2,
       base2 = p.base02,
       base0 = p.base0,
