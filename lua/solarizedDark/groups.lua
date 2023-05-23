@@ -75,7 +75,7 @@ M.setup = function()
     ColorColumn = { bg = colors.base00 },
     Conceal = { fg = colors.blue },
     CursorLineNr = { fg = colors.yellow, bg = colors.base00 },
-    NonText = { link = "SolarizedDarkbase0" },
+    NonText = { link = "SolarizedBlue" },
     SpecialKey = { link = "SolarizedDarkbase01" },
     Visual = { bg = colors.base1, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
