@@ -1,12 +1,12 @@
 -- lightline support
 local theme = require("solarizedDark.groups").setup()
 
-local base02 = theme.SolarizedDarkbase02.fg
-local base00 = theme.SolarizedDarkbase00.fg
-local base0 = theme.SolarizedDarkbase0.fg
-local base2 = theme.SolarizedDarkbase2.fg
-local base0 = theme.SolarizedDarkbase0.fg
-local base01 = theme.SolarizedDarkbase01.fg
+local base02 = theme.SolarizedBase02.fg
+local base00 = theme.SolarizedBase00.fg
+local base0 = theme.SolarizedBase0.fg
+local base2 = theme.SolarizedBase2.fg
+local base0 = theme.SolarizedBase0.fg
+local base01 = theme.SolarizedBase01.fg
 
 local yellow = theme.SolarizedYellow.fg
 local blue = theme.SolarizedBlue.fg
