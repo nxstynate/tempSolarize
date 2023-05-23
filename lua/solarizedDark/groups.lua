@@ -135,7 +135,7 @@ M.setup = function()
     Number = { link = "SolarizedViolet" },
     Float = { link = "SolarizedViolet" },
     Type = { link = "SolarizedYellow" },
-    StorageClass = { link = "SolarizedOrange" },
+    StorageClass = { link = "SolarizedYellow" },
     Structure = { link = "SolarizedCyan" },
     Typedef = { link = "SolarizedYellow" },
     Pmenu = { fg = colors.base0, bg = colors.base0 },
