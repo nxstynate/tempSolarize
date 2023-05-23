@@ -71,7 +71,7 @@ M.setup = function()
       or { fg = colors.base0, bg = colors.base00 },
     NormalNC = config.dim_inactive and { fg = colors.base2, bg = colors.base00 } or { link = "Normal" },
     CursorLine = { bg = colors.base03 },
-    CursorColumn = { link = "SolarizedCyan" },
+    CursorColumn = { link = "SolarizedBlue" },
     TabLineFill = { fg = colors.base2, bg = colors.base00, reverse = config.invert_tabline },
     TabLineSel = { fg = colors.green, bg = colors.base00, reverse = config.invert_tabline },
     TabLine = { link = "TabLineFill" },
@@ -107,7 +107,7 @@ M.setup = function()
     Folded = { fg = colors.base1, bg = colors.base00, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.base1, bg = nil }
       or { fg = colors.base1, bg = colors.base00 },
-    Cursor = { link = "SolarizedCyan" },
+    Cursor = { link = "SolarizedBlue" },
     vCursor = { link = "Cursor" },
     iCursor = { link = "Cursor" },
     lCursor = { link = "Cursor" },
